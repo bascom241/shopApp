@@ -1,0 +1,137 @@
+.category-container {
+    margin-left: 20px;
+}
+
+.category-container section {
+    margin-bottom: 15px;
+}
+
+.category-container h2 {
+    margin-bottom: 5px;
+}
+.sec1{
+      margin: 3rem 2rem;
+
+}
+.sec2{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+    margin: 3rem 2rem;
+}
+.sec3 {
+    margin: 3rem 2rem;
+}
+.btn-container button {
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: 1px solid rgb(63, 63, 63);
+    background: transparent;
+    margin: 5px;
+}
+
+.btn-container .btn1 {
+    background: rgb(67, 90, 201);
+    color: white;
+}
+
+.btn-container .btn5 {
+    background: rgb(67, 90, 201);
+    color: white;
+}
+
+.btn-container .btn9 {
+    background: rgb(67, 90, 201);
+    color: white;
+}
+
+.btn-container .btn11 {
+    background: rgb(67, 90, 201);
+    color: white;
+}
+
+.btn-container .btn13 {
+    background: rgb(67, 90, 201);
+    color: white;
+}
+
+.btn-container button:hover {
+    background: rgb(67, 90, 201);
+    color: white;
+}
+
+.content-container {
+    display: flex;
+}
+
+.product-container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 800px;
+    gap: 2rem;
+    
+   
+}
+.product{
+    border: 1px solid rgb(0, 0, 0);
+    padding:10px;
+    height: 480px;
+    border-radius: 5px;
+}
+.product img{
+    width: 100%;
+    height: auto;
+    background: rgba(215, 213, 213, 0.991);
+    padding-bottom: 50px;
+   border-radius: 5px;
+    
+}
+.image-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    margin-bottom: 3px;
+}
+.btn1{
+    background: rgb(67, 90, 201);
+    color: white;
+    padding: 5px 50px;
+    border-radius: 7px;
+    border: none;
+   display: flex;
+   align-items: center;
+    margin: 0 auto;
+    gap: 7px;
+}
+
+@media screen and (width<760px){
+    .product-container {
+       
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+      margin: none;
+      padding: none;
+        
+       
+    }
+
+    .category-container {
+        display: none;
+    }
+    .product{
+        border: 1px solid rgb(0, 0, 0);
+        padding:10px;
+        height: auto;
+        width: 100%;
+      
+    }
+
+}
+
+
+

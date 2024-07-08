@@ -1,0 +1,72 @@
+footer{
+    background: rgb(67, 90, 201);
+    height: 300px;
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.footer-container{
+    color: white;
+    display: grid;
+    gap: 4rem;
+    margin-left: 50px;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer-container .div{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.subscribe-input{
+  
+    padding: 10px 15px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    
+}
+.subscribe-btn{
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+   
+}
+.sub-subs-container{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-right: 20px;
+}
+
+.subscribe-container{
+    margin-top: 30px;
+}
+
+@media screen and (width<760px){
+    .footer-container{
+        color: white;
+        display: grid;
+        gap: 1rem;
+        margin-left: 50px;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .subscribe-input{
+  
+        padding: 7px 3px;
+    }
+    .sub-subs-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-container{
+        margin-left: 5px;
+        
+    }
+    footer{
+        height: 400px;
+    }
+}
