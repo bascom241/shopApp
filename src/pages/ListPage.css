@@ -108,6 +108,9 @@
     gap: 7px;
 }
 
+.sec4{
+    margin: 3rem 2rem;
+}
 @media screen and (width<760px){
     .product-container {
        
