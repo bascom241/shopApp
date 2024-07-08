@@ -50,6 +50,36 @@ const ListPage = () => {
                         <button className='btn14'>Louis Vuitton</button>
                     </div>
                 </section>
+                <section className='sec4'>
+                    <h2>Rating</h2>
+                    <div>
+
+
+                        <span className='material-symbols-outlined star'>star</span>
+                        <span className='material-symbols-outlined star'>star</span>
+                        <span className='material-symbols-outlined star'>star</span>
+                        <span className='material-symbols-outlined star'>star</span>
+                        <span className='material-symbols-outlined star'>star</span>
+                    </div>
+                    <div>
+
+
+                        <span className='material-symbols-outlined star'>star</span>
+                        <span className='material-symbols-outlined star'>star</span>
+                        <span className='material-symbols-outlined star'>star</span>
+                        <span className='material-symbols-outlined star'>star</span>
+                        <span className='material-symbols-outlined star'>star</span>
+                    </div>
+                    <div>
+
+
+                        <span className='material-symbols-outlined star'>star</span>
+                        <span className='material-symbols-outlined star'>star</span>
+                        <span className='material-symbols-outlined star'>star</span>
+                        <span className='material-symbols-outlined star'>star</span>
+                        <span className='material-symbols-outlined star'>star</span>
+                    </div>
+                </section>
             </div>
 
             <div className='product-container'>
@@ -62,11 +92,11 @@ const ListPage = () => {
                                 <h4>{e.tittle}</h4>
                                 <p>${e.price}</p>
                                 <div>
-                                    <span className='material-symbols-outlined'>star</span>
-                                    <span className='material-symbols-outlined'>star</span>
-                                    <span className='material-symbols-outlined'>star</span>
-                                    <span className='material-symbols-outlined'>star</span>
-                                    <span className='material-symbols-outlined'>star</span>
+                                    <span className='material-symbols-outlined star'>star</span>
+                                    <span className='material-symbols-outlined star'>star</span>
+                                    <span className='material-symbols-outlined star'>star</span>
+                                    <span className='material-symbols-outlined star'>star</span>
+                                    <span className='material-symbols-outlined star'>star</span>
                                 </div>
                             </div>
                             <button className='btn1' onClick={() => addToCart(e.id)}>
