@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import icon1 from '../images/icons8-facebook-48 (1).png';
+
 import icon2 from '../images/icons8-twitter-48 (1).png';
 import icon3 from '../images/icons8-instagram-48 (1).png'
 const Footer = () => {
@@ -43,7 +43,7 @@ const Footer = () => {
 
                         <div className='iconImageContainer'>
                             <div className='iconImage'>
-                                <img src={icon1} />
+                                
                             </div>
                             <div className='iconImage'>
                                 <img src={icon2} />
